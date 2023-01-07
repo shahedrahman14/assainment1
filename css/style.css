@@ -1,0 +1,159 @@
+*{ font-family:roboto ; 
+margin: 0 auto; }
+/* universal selector */
+/* header stared from here */
+header{
+
+display: flex;
+justify-content: space-around;
+gap: 300px;
+margin-bottom: 50px;
+}
+.header-img{
+    width:400px ;
+}
+.header-text{
+text-align: right;
+    
+    padding: 300px 200px;
+}
+.header-title{
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.header-description{
+    margin-bottom: 10px;
+}
+.all-button{
+    
+    background-color: rgb(255, 81, 0);
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+/* header end */
+/* main section started from here */
+
+/* My faliures section started from here  */
+.my-faliures{
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    margin-bottom: 40px;
+}
+.my-faliures-text{
+    padding: 200px 100px;
+   
+}
+.my-faliures-img img{
+    width: 400px;
+    
+}
+.my-faliures-title{
+    margin-bottom: 10px;
+}
+.my-faliures-list span{
+    color: rgb(255, 82, 2);
+    font-weight: bolder;
+}
+/* My faliures section end */
+/* my plans section started from here */
+.my-plans{
+    padding: 0 200px;
+}
+.my-plans-title{
+ text-align: center; 
+ margin-bottom: 50px;  
+}
+.my-plans-details{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.my-plans-details img{
+    width: 100px;
+}
+/*my plans section had been ended */
+
+/* call now section  started from here */
+.call-now{
+    width: 1000px;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 60px;
+    background-image: url(../images/gradient3.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin-bottom: 50px;
+}
+.call-now-text{
+    padding: 50px;
+  
+   color: aliceblue;
+}
+.call-now-text-title{
+    margin-bottom: 20px;
+}
+.button{
+    background-color: rgb(250, 248, 247);
+    color: rgb(253, 1, 1);
+    padding:10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+/* call now. section had been ended */
+/* education section started from here */
+.education{
+    background-color: violet;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 990px;
+    height: 400px;
+    border-radius: 5px;
+}
+.education-title{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+table{
+    padding: 10px;
+}
+tr{
+    background-color: lightpink;
+}
+td{
+    background-color: lightgreen;
+}
+table,tr,td,th{
+    border: 2px solid darkred;
+    border-collapse: collapse;
+    height: 50px;
+    width: 600px;
+}
+/* footer started */
+.contact{}
+.contact-details{
+    padding: 30px 200px;
+    gap: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;}
+    .details1{
+        padding: 40px;
+    }
+    .details2{
+        padding: 50px;
+    }
+    .details2 .mail{
+        font-size: 20px;
+        background-color: gray;
+        border-radius: 5px;
+    
+}
+    ::placeholder{color: aliceblue;}
+/* footer end */
